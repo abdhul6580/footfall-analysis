@@ -1,4 +1,28 @@
+# CCTV videos
+videos/
 *.mp4
 *.avi
-__pycache__/
+*.mov
+*.mkv
+
+# Generated files
+*_output.mp4
+*_summary.csv
+*.csv
+
+# YOLO model weights
 *.pt
+*.onnx
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
